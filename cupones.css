@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: #f3f1f5;
+    
+    background-color: rgb(165, 79, 17);
+
+    
+}
+
+.menu{
+    list-style: none;
+    padding-left: 140px;
+    padding-top: 20px;
+    border-radius: 50px;
+    background: rgb(81, 201, 195);
+    width: 89%;
+    height: 95PX;
+    background-image:url(img/dientelogo.png);
+    background-size: 100px;
+    background-position: left 20px top 10px;
+    position: absolute;
+    display:inline-flex;
+    background-repeat: no-repeat;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rebeccapurple;
+
+}
+.menu li a:hover{
+    background-color: rgb(226, 155, 0);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: all 900ms ease;
+
+}
+.titulo{
+    position:absolute;
+     top: 30%;
+}
+
+.card {
+
+    display:inline-flex;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size:500px;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px rgb(3, 32, 51, .8);
+    overflow: hidden;
+    position: relative;
+    top: 200px;
+    left:160px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.content{
+    width:150%;
+    height: auto ;
+    flex-direction: inline-flex;
+    background: rgba( 0, 0, 0, .4);
+    opacity:0;
+    transition: 5;
+    cursor: pointer;
+    align-items:inherit;
+    background-size: auto;
+    text-align: center;
+
+
+
+}
+.content h2, a{
+    color: rgb(255, 255, 255, .8);
+    margin: 10px 0;
+}
+.card:hover .content {
+    opacity: 1;
+}
+
+footer{
+    
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px;
+    background-color: rgb(165, 79, 17);
+    position:absolute;
+    margin: auto;
+    margin-top: 200px;
+    top: 180%;
+    right: 20px;
+
+    
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+}
+.box__footer .l0g0{
+    width: 200px;
+    
+}
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 800;
+
+
+}
+.box__footer a{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.box__footer a:hover{
+    opacity: 0.8;
+    transition: all 600ms;
+    color: rgb(255, 0, 0);
+}
+.box__footer a .fab{
+    font-size: 25px;
+
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 50px;
+    color: #ffffff;
+}
+.box__copyright hr{
+    border: none;
+    height: 2px;
+    background-color: #7a7a7a;
+}

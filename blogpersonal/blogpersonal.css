@@ -1,0 +1,301 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* codigo del mi blog*/
+
+#mi{
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: blueviolet;
+    position:relative;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px ;
+    font-style:italic;
+    cursor:context-menu;
+    transition: all 800ms ease;
+}
+#mi:hover{
+    text-shadow: 8px 8px 8px white;
+    opacity: 0.5;
+}
+/*este es el section*/
+section{
+    position:relative;
+    width: 200px;
+    border: solid 1px  white;
+    height: 500px ;
+    background-color:indigo;
+    border-radius: 5px;
+    box-shadow: 12px 12px 10px  rgb(76, 31, 109);
+}
+#loco{
+    position:relative;
+    display: flex;
+}
+#arti1{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/foto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    border-radius: 50%;
+    position:absolute;
+    color: white;
+    border: solid 1px ;
+    cursor:context-menu;
+    box-shadow: -12px 10px 10px rgb(78, 75, 75);
+}
+#arti2{
+    width: 100%;
+    height: 295px;
+    border-radius: 5%;
+    position:absolute;
+    cursor:context-menu;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+
+}
+#blog{
+    width:280px;
+    height: 500px;
+    position:absolute;
+    background-color:indigo;
+    margin-left: 260px;
+    border: solid 1px white;
+    transition: all 400ms ease-in;
+    box-shadow: -12px -10px 10px  rgb(76, 31, 109);
+
+}
+#blog:hover{
+    box-shadow: 12px 10px 10px rgb(60, 23, 85);
+    border-radius: 10px;
+
+}
+#blog1{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    background-color:indigo;
+    margin-left: 570px;
+    border: solid 1px white;
+    box-shadow: -12px -10px 10px  rgb(76, 31, 109);
+    transition: all 400ms ease;
+}
+#blog1:hover{
+    box-shadow: 12px 10px 10px rgb(60, 23, 85);
+    border-radius: 10px;
+
+}
+#blog2{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    background-color:indigo;
+    margin-left: 880px;
+    box-shadow: -12px -10px 10px  rgb(76, 31, 109);
+    transition: all 400ms ease;
+    border: solid 1px white;
+
+}
+#blog2:hover{
+    box-shadow: 12px 10px 10px rgb(60, 23, 85);
+    border-radius: 10px;
+
+}
+
+#blog3{
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    background-color: indigo;
+    margin-left: 1190px;
+    border: solid 1px white;
+    box-shadow: -12px -10px 10px rgb(76, 31, 109);
+    transition: all 400ms ease;
+}
+#blog3:hover{
+    box-shadow: 12px 10px 10px rgb(60, 23, 85);
+    border-radius: 10px;
+
+}
+#hoja{
+    width: 70px;
+    height: 90px;
+    border-radius: 25%;
+    position: fixed;
+    opacity:0.5;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    cursor: alias;
+}
+#hoja:hover{
+    opacity: 1;
+}
+#cono{
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 35px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    cursor:context-menu;
+    transition:all 900ms ease;
+}
+#cono:hover{
+    color: aliceblue;
+}
+#conocimiento{
+    font-size: 30px;
+    text-align: center;
+    font-family:monospace;
+}
+#conocimiento:hover{
+    color: aliceblue;
+}
+#biografia{
+    font-size: 30px;
+    text-align: center;
+    font-family:monospace;
+
+}
+#biografia:hover{
+    color: aliceblue;
+}
+#bio{
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 35px;
+    width: 75%;
+    height: 40px;
+    border: 1px solid;
+    cursor:context-menu;
+    transition:all 900ms ease;
+}
+#bio:hover{
+    color: aliceblue;
+}
+#acti{
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 35px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    cursor:context-menu;
+    transition:all 900ms ease;
+}
+#acti:hover{
+    color: aliceblue;
+}
+#actitudes{
+    font-size: 30px;
+    text-align: center;
+    font-family:monospace;   
+}
+#actitudes:hover{
+    color: aliceblue;
+}
+#acer{
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 35px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    cursor:context-menu;
+    transition:all 900ms ease;    
+}
+#acer:hover{
+    color: aliceblue;
+}
+#acerca{
+    font-size: 30px;
+    text-align: center;
+    font-family:monospace;       
+}
+#acerca:hover{
+    color: aliceblue;
+}
+/*contenido*/
+#cono1{
+    width: 200px;
+    height: 400px;
+    border: 1px solid; 
+    border-radius: 15px;
+    position:relative;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: context-menu;
+    text-align: center;
+    font-size: 20px;
+    transition: all 800ms ease;
+}
+#cono1:hover{
+    color: aliceblue;
+}
+#bio1{
+    width: 210px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 15px;
+    position:absolute;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: context-menu;
+    text-align: center;
+    font-size: 15px;
+    transition: all 800ms ease;
+    
+}
+#bio1:hover{
+    color: aliceblue;
+}
+
+#acti1{
+    width: 210px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 15px;
+    position:absolute;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: context-menu;
+    text-align: center;
+    font-size: 15px;
+    transition: all 800ms ease;
+    
+}
+#acti1:hover{
+    color: aliceblue;
+}
+
+#acer1{
+    width: 210px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 15px;
+    position:absolute;
+    margin-left: 35px;
+    margin-top: 20px;
+    cursor: context-menu;
+    text-align: center;
+    font-size: 15px;
+    transition: all 800ms ease;
+    
+}
+#acer1:hover{
+    color: aliceblue;
+}
+

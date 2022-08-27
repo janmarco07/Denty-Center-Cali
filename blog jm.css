@@ -1,0 +1,74 @@
+h1{
+    margin: 30px 30px 30px 30px;
+    background: rgb(89, 147, 235);
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    margin: 30px 30px 30px 30px;
+}
+#hr{
+    margin: 0px 30px 0px 30px;
+    border:solid 1px rgb(44, 43, 43);
+}
+body{
+    border-image: 3px;
+    border: solid 2px rgb(0, 0, 0);
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(89, 147, 235);
+    width: 50%;
+    max-width: 900%;
+    margin: auto;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rebeccapurple;
+
+}
+.menu li a:hover{
+    background-color: rgb(30, 114, 192);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: all 900ms ease;
+
+}
+#caja1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+}
+#caja2{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    
+    
+}
+P{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 2px black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+    padding: 30px 30px 30px 30px;
+}

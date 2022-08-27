@@ -1,0 +1,994 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+    background-color: rgb(165, 79, 17);
+}
+/*ENCABEZADO DE LA BARRA DE NAVEGAACION*/
+.todo{
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+header{
+    width: 100%;
+    height: 10%;
+}
+header ul{
+    height: 40px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor:context-menu;
+    transition: all 300ms ease-in;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header ul li a{
+    color: white;
+}
+header ul li a:hover{
+    color: rgb(73, 31, 1);
+
+}
+header ul li:hover{
+    opacity: 1;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: inset;
+    background-color:rgb(177, 83, 6);
+}
+#scrol .inicio{
+    width: 4%;
+    height:5%;
+    border-radius: 20px;
+    opacity: 0.5;
+    float:none;
+    margin-top: 30%;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 400ms ease-in;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(109, 109, 109);
+}
+#scrol .inicio:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+
+}
+
+#scrol .inicioO{
+    width: 4%;
+    height:5%;
+    border-radius: 20px;
+    opacity: 0.5;
+    float:none;
+    margin-top: 35%;
+    position: fixed;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 400ms ease-in;
+    box-shadow: 5px 5px 5px rgb(109, 109, 109);
+}
+
+#scrol .inicioO:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+    
+
+}
+
+/*SEGUNDO ENCABEZADO*/
+nav ul{
+    height: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 10%;
+    font-size: 22.5px;
+    border-radius: 20px;
+    transition: all 500ms ease-in;
+}
+nav ul li:hover{
+    transform:scale(1.1);
+
+}
+nav ul li a{
+    animation-name: nav1;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes nav1 {
+    0%{
+        color: rgb(122, 122, 122);
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: rgb(122, 122, 122);
+    }
+    
+}
+
+header,nav{
+    background-color: chocolate;
+    border-radius: 20px;
+}
+
+div .logo{
+    width: 10%;
+    height:15%;
+    border-radius: 40%;
+    position:absolute;
+    background-position: center;
+    background-image: url(img/Burger-png.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+/********SESION DE LOS ARTIULOS*********/
+div h2{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: context-menu;
+    animation-name: h2;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes h2 {
+    0%{
+        color: rgb(122, 122, 122);
+        text-shadow: 5px 5px 5px rgb(68, 68, 68);
+    }
+    50%{
+        color:chocolate;
+        text-shadow: 5px 5px 5px brown;
+    }
+    100%{
+        color: rgb(122, 122, 122);
+        text-shadow: 5px 5px 5px rgb(68, 68, 68);
+
+    }
+    
+}
+
+article{
+    margin-top: 20px;
+}
+article div{
+    width: 80%;
+    height: 450px;
+    margin-left:10%;
+    animation-name: nuevo;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes nuevo {
+    0%{
+        background-image: url(XXt/xtt.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+    25%{
+        background-image: url(pollo/pollo4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+    50%{
+        background-image: url(lagran/la2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+    75%{
+        background-image: url(hamburguesas/hamm.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+    100%{
+        background-image: url(XXt/xtt.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+    
+}
+
+/*whopper*/
+
+section{
+    margin-top: 50px;
+}
+section h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section div{
+    width: 20%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:3.7%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+section div:hover{
+    transform:scale(1.1);
+}
+/***************************BLOTON DE COMPRAR*******************************************/
+#comprar{
+    width: 30%;
+    height: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease-in;
+    margin-left: 150px;
+}
+#comprar:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(138, 66, 16);
+
+}
+
+#comprar1{
+    width: 30%;
+    height: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease-in;
+    margin-left: 250px;
+}
+#comprar1:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(138, 66, 16);
+
+}
+
+#comprar2{
+    width: 30%;
+    height: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease-in;
+    margin-left: 350px;
+}
+#comprar2:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(138, 66, 16);
+
+}
+
+#comprar3{
+    width: 30%;
+    height: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease-in;
+    margin-left: 300px;
+}
+#comprar3:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(138, 66, 16);
+
+}
+
+#comprar4{
+    width: 20%;
+    height: 10%;
+    background-color: chocolate;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease-in;
+    margin-top:300px;
+}
+#comprar4:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgb(138, 66, 16);
+
+}
+
+
+
+section div h3{    
+    margin-top: 270px;
+    position:absolute;
+    cursor: context-menu;
+}
+
+section .pp{
+    width: 100%;
+    background-image: url(whopper/whoper.png);
+    background-position: center;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+section .pp1{
+    width: 100%;
+    background-image: url(whopper/whopper-tejan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+section .pp2{
+    width: 100%;
+    background-image: url(whopper/whoper-jr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+section .pp3{
+    width: 100%;
+    background-image: url(whopper/whopper-doble.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+
+/*megastacker*/
+
+.megastacker h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.megastacker div{
+    width: 30%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:2%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.megastacker div:hover{
+    transform:scale(1.1);
+}
+
+.megastacker div h3{    
+    margin-top: 270px;
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.megastacker .pp1{
+    width: 100%;
+    background-image: url(megastacker/megastacker-doble.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.megastacker .pp2{
+    width: 100%;
+    background-image: url(megastacker/megastacker-sencillas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.megastacker .pp3{
+    width: 100%;
+    background-image: url(megastacker/megastacker-triple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+
+/*la gran*/
+
+.la-gran h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.la-gran div{
+    width: 30%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:2%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.la-gran div:hover{
+    transform:scale(1.1);
+}
+
+.la-gran div h3{    
+    margin-top: 270px;
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.la-gran .pp1{
+    width: 100%;
+    background-image: url(lagran/la1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.la-gran .pp2{
+    width: 100%;
+    background-image: url(lagran/la2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.la-gran .pp3{
+    width: 100%;
+    background-image: url(lagran/la3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+/**********************tx********************************/
+.tx{
+    margin-left: 5%;
+}
+.tx h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tx div{
+    width: 40%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:4%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.tx div:hover{
+    transform:scale(1.1);
+}
+
+.tx div h3{    
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.tx .pp1{
+    width: 100%;
+    background-image: url(XXt/xt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+.tx .pp2{
+    width: 100%;
+    background-image: url(XXt/xt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+/********************hamburguesas*************/
+
+.hambur{
+    margin-left: 5%;
+}
+.hambur h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hambur div{
+    width: 40%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:4%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.hambur div:hover{
+    transform:scale(1.1);
+}
+
+.hambur div h3{    
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.hambur .pp1{
+    width: 100%;
+    background-image: url(hamburguesas/ham.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+.hambur .pp2{
+    width: 100%;
+    background-image: url(hamburguesas/hamm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+
+/*******************pollo***********************/
+
+.pollo h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pollo div{
+    width: 30%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:2%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.pollo div:hover{
+    transform:scale(1.1);
+}
+
+.pollo div h3{    
+    margin-top: 270px;
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.pollo .pp1{
+    width: 100%;
+    background-image: url(pollo/pollo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.pollo .pp2{
+    width: 100%;
+    background-image: url(pollo/pollo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.pollo .pp3{
+    width: 100%;
+    background-image: url(pollo/pollo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.pollo .pp4{
+    width: 100%;
+    background-image: url(pollo/pollo4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.pollo .pp5{
+    width: 100%;
+    background-image: url(pollo/pollo5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.pollo .pp6{
+    width: 100%;
+    background-image: url(pollo/pollo6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+
+/***************************gran jr*******************************/
+
+.gran-jr{
+    margin-left: 5%;
+}
+.gran-jr h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gran-jr div{
+    width: 40%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:4%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.gran-jr div:hover{
+    transform:scale(1.1);
+}
+
+.gran-jr div h3{    
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.gran-jr .pp1{
+    width: 100%;
+    background-image: url(lagran-jr/jr-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+.gran-jr .pp2{
+    width: 100%;
+    background-image: url(lagran-jr/jr-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+
+/***************************complementos*************************************/
+.complem{
+    margin-left: 10%;
+}
+.complem h1{
+    display: inline-flex;
+    font-size: 35px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.complem div{
+    width: 80%;
+    height: 300px;
+    display: inline-flex;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.complem div:hover{
+    transform:scale(1.1);
+}
+
+.complem div h3{    
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.complem .pp1{
+    width: 100%;
+    background-image: url(complementos/comple1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    border: transparent;
+}
+
+/**********************POSTRES**********************/
+
+
+.postres h1{
+    text-align: center;
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: context-menu;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.postres div{
+    width: 30%;
+    height: 300px;
+    display: inline-flex;
+    margin-left:2%;
+    position:relative;
+    transition: all 400ms ease-in-out;
+}
+
+.postres div:hover{
+    transform:scale(1.1);
+}
+
+.postres div h3{    
+    margin-top: 270px;
+    position:absolute;
+    cursor: context-menu;
+}
+
+
+.postres .pp1{
+    width: 70%;
+    background-image: url(complementos/postres/postre1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp2{
+    width: 70%;
+    background-image: url(complementos/postres/postre2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp3{
+    width: 80%;
+    background-image: url(complementos/postres/postre3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp4{
+    width: 100%;
+    background-image: url(complementos/postres/postre4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp5{
+    width: 100%;
+    background-image: url(complementos/postres/postre5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp6{
+    width: 70%;
+    background-image: url(complementos/postres/postre6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp7{
+    width: 70%;
+    background-image: url(complementos/postres/postre7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp8{
+    width: 90%;
+    background-image: url(complementos/postres/postre8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:70%;
+    border: transparent;
+}
+
+.postres .pp9{
+    width: 80%;
+    background-image: url(complementos/postres/postre9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    border: transparent;
+}
+
+.postres .pp10{
+    width: 100%;
+    background-image: url(complementos/postres/postre10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: transparent;
+}
+
+.postres .pp11{
+    width: 100%;
+    background-image: url(complementos/postres/postre11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:60%;
+    border: transparent;
+}
+
+
+/********************foooooter*****************************/
+
+footer{
+    cursor: context-menu;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(156, 84, 32);
+    
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box__footer{
+    margin-left: 10;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 25px 25px 10px  10px;
+    background-color: chocolate;
+}
+footer .l0g0{
+    width: 150px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+.box__footer h3{
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+}
+.box__footer a{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.box__footer a:hover{
+    opacity: 0.8;
+    transition: all 600ms;
+    color: rgb(255, 0, 0);
+}
+.box__footer a .fab{
+    font-size: 25px;
+
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 5px;
+    color: #ffffff;
+}
+.box__copyright hr{
+    border: none;
+    height: 2px;
+    background-color: #7a7a7a;
+}
+
+
+.persona{
+    width: 30px;
+    margin-left:650px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50%;
+    transition: 400ms all ease-in-out;
+}
+.persona:hover{
+    width: 40px;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
